@@ -29,7 +29,7 @@ const CartProvider = (props) => {
   const removeItemHandler = (id) => {}; //removing items into cart
   const cartcontext = {
     items: cartState.items,
-    totalamount: cartState.amount,
+    totalamount: cartState.totalamount,
     addItem: addItemHandler,
     removeItem: removeItemHandler,
   }; //default value for cartcontext
